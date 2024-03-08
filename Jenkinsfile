@@ -11,7 +11,7 @@ userRemoteConfigs: [[url: 'https://github.com/suvan362/PES1UG21CS651_Jenkins-']]
 }
 stage('Build') {
 steps {
-build 'PES2UG19CS651-1'
+build 'PES1UG21CS651-1'
 sh 'g++ main.cpp -o output'
 }
 }
