@@ -28,7 +28,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploy'
-                //sh 'non_existent_command_failiure'
+                sh 'non_existent_command_failiure'
             }
         }
     }
